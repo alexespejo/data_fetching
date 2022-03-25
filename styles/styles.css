@@ -1,0 +1,48 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+#data {
+  border-radius: 1.5rem;
+  -webkit-box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0.2rem 0.2rem 0.8rem rgba(0, 0, 0, 0.3);
+  padding: 0.1rem;
+}
+
+#data div:not(:first-child) {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#data div {
+  font-size: 1.5em;
+  padding: 1rem;
+}
+
+#data div * {
+  display: inline;
+}
+
+#data div head {
+  font-weight: normal;
+  margin: 0;
+  padding: 0;
+}
+
+#data div p {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+@media (min-width: 1024px) {
+  #data div * {
+    display: block;
+  }
+  #data div head {
+    font-size: 1.5em;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
